@@ -1,0 +1,46 @@
+@use "design-system";
+
+.recovery-phrase {
+  &__chips {
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    &--hidden { filter: blur(8px); }
+    
+    // SRP_OVERRIDE: START
+    
+    .mm-text-field {
+      padding-left: 8px; 
+      border-radius: 8px;
+      
+      &[class*="--quiz-word"] { cursor: pointer; }
+      
+      &:not([class*="--quiz-word"]) { border-color: var(--color-border-muted); }
+      
+      &.mm-text-field--target-index,
+      &.mm-text-field--focused { outline-style: solid; outline-width: 5px; outline-color: var(--color-primary-default); }
+      
+      .mm-input {
+        cursor-pointer();
+        padding-right-left(8px,4px);
+        
+        @function cursor-pointer() {
+          cursor:pointer;
+          ${0}:pointer
+        }
+
+        @mixin padding-right-left($right,$left){
+            padding-right:$right;
+            padding-left:$left;
+         }  
+     }   
+   }
+   // SRP_OVERRIDE END
+   
+}
+
+&__text               { height              :40px;}
+&__word-index         { width              :20px;}
+&__secret             { position           :relative;height:auto ;min-height       :216 px}
+&__secret-blocker-container{position:absolute;top                      :bottom                     ;bottom                       :]
+```
+
