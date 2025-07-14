@@ -1,0 +1,22 @@
+
+```html
+<div>
+  <div class="settings-page__body">
+    <div class="mm-box settings-page__content-row mm-box--display-flex mm-box--flex-direction-column" data-testid="advanced-setting-state-logs">
+      <div class="settings-page__content-item">
+        <span>State logs</span>
+        <span class="settings-page__content-description">Contain your public account addresses and sent transactions.</span>
+      </div>
+      <div class="settings-page__content-item">
+        <div class="settings-page__content-item-col">
+          <button class="button btn-secondary btn--large" data-testid="advanced-setting-state-logs-button">Download state logs</button>
+        </div>
+      </div>
+    </div>
+    <div class="mm-box settings-page__content-row mm-box--display-flex mm-box--flex-direction-column" data-testid="advanced-setting-reset-account">
+      <div class="settings-page__content-item">
+        <span>Clear activity and nonce data</span>
+        <span class="settings-page__content-description">Resets nonce, erases activity tab, affects only current account and network.</span>
+      </div>
+      <div class("settings-tab.__button button.btn-danger btn--large settings-tab.__button --red")>Clear activity tab data</label></button></label></label></label></label></label></label></input><input type='checkbox' value='false'/><input type='checkbox' value='false'/><input type='checkbox' value='true'/><input type='checkbox' value=true/></a>/a/<a>/a/<a>/a/<a>/li/a/div/div/a/br/a/sp/a/!DOCTYPE html<a:http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd<a:html lang=a:en xmlns:a=http://www.w3.org/1999/xhtml head/body/class=list-group-class=list-group-flush div(class=container div(class=row div(class=col-md-8 offset-md-2) h1(class=h1) p[class=presentational-text] p[class=text-muted small] ul(class=list-unstyled list-group) li<class=list-group-item active>(Link to advanced options)<li<class=list-group-item inactive>(View accounts)<li<class=list-group-item inactive>(Import account)<li<class=list-group-item inactive>(Import wallet)<li<class=list-group-item inactive>(Change password)<li@class=image-responsive img(src=https://via.placeholder.com/150x100)>h2(class=h2)(Settings) form(role=form) div(class=row div[class=col-xs-12 col-sm-6] label for=address-input(Enter address or scan QR code): input(type=text id=address-input placeholder=Enter address or scan QR code)/form/button(role=form)(<b>Error:</b> Account not found. Please check the address.) a(href=https://glenlapp.io/download-label.Download Metamask!/a/form(role=form)(<b>Error:</b> Account not found. Please check the address.) a(href=https://glenlapp.io/download-label.Download Metamask!/a)</p/button/button/li/li/li/li/li/div/div/h2/class=h2)(Advanced Settings) form(role=form)
+  ```
