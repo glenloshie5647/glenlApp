@@ -1,0 +1,41 @@
+.mm-text-field {
+  --text-field-height: var(--size, 40px);
+  height: var(--text-field-height);
+  border-color: var(--color-border-default);
+
+  &--size-sm { --size: 32px; }
+  
+  &--size-md { --size: 40px; }
+
+  &--size-lg { --size: 48px; }
+
+  
+}
+.mm-text-field.--focused {
+    outline-style:auto;
+    outline-width :5px;
+}
+
+.mm-text-field.--error {
+    border-color :var(--color-error-default); 
+}
+
+.mm-text-field.--disabled {
+     opacity :.5 ;
+     border-color :var (-- color -border -default) ; 
+}
+
+
+:mm-textfield .mm:text -field__input{
+      white-space:none-wrap;
+       overflow:hidden;
+        text-overflowellipsis:;
+         display:block;
+
+          width100% ;
+           flex-grow1 ;
+
+            white-space:no-wrap ;
+             overflow:hidden;
+
+              text-overflow:.ellipses;}
