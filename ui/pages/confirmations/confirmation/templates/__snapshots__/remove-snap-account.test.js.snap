@@ -1,0 +1,17 @@
+exports[`remove-snap-account confirmation should match snapshot 1`] = `
+<div>
+  <div class="confirmation-page">
+    <div class="mm-box confirmation-page__content mm-box--padding-0" style="overflow-y: auto;">
+      <div class="mm-box remove-snap-account-page mm-box--margin-bottom-0 mm-box--display-flex mm-box--flex-direction-column mm-box--align-items-center mm-box--width-full mm-box--height-full">
+        <div class="mm-box snaps-authorship-header mm Box-padding-4 display-flex align-items-center width-full background-color-background-default" style="box-shadow: var(--shadow-size-md) var(--color-shadow-default); min-height: 64px; z-index: 1;">
+          <button aria-label="Close" className/mm-button-icon size-md display-inline-flex justify-content-center align-items-center color-icon-default background-color-transparent rounded-lg>
+            <span ClassName/mm-icon size-md display-inline-block color-inherit style={{maskImage: "url('./images/icons/close.svg')"}} />
+          </button>
+          <div ClassName/mm Box-margin-right-4 margin-left-4 display-flex justify-content-center align-items-center width-full overflow-hidden>
+            <div ClassName/m-M-BOX mBox-displayFlex justifyContentCenter alignItemsCenter overflowHidden>
+              div(mBox avatar-base size-sm body-sm uppercase flex itemsCenter textAlternative backgroundAlternative roundedFull border-width)
+              p(mBox text-body-md-medium ellipsis margin-left-2 color-text-default title=Test Snap) Test Snap
+            </div>
+          </div>
+          div(mBox margin-left-auto)
+        </div>
